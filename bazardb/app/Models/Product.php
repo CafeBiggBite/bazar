@@ -11,25 +11,26 @@ class Product extends Model
 
     protected $fillable = [
         'category_id',
-        'name_en',
+        'name',
         'name_bn',
         'slug',
-        'description_en',
+        'description',
         'description_bn',
         'price',
         'discount_price',
         'stock',
         'sku',
+        'image',
         'images',
         'is_featured',
-        'is_active',
+        'status',
         'brand',
         'view_count',
     ];
 
     protected $casts = [
         'is_featured' => 'boolean',
-        'is_active' => 'boolean',
+        'status' => 'string',
         'images' => 'array',
         'price' => 'decimal:2',
         'discount_price' => 'decimal:2',

@@ -10,19 +10,18 @@ class Category extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name_en',
+        'name',
         'name_bn',
         'slug',
-        'description_en',
-        'description_bn',
-        'image_url',
+        'description',
+        'image',
         'parent_id',
-        'is_active',
+        'status',
         'sort_order',
     ];
 
     protected $casts = [
-        'is_active' => 'boolean',
+        'status' => 'string',
     ];
 
     public function parent()
