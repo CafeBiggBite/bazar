@@ -1,27 +1,61 @@
-```
-# Laravel-specific ignores
-/vendor/
-/node_modules/
-/public/storage
-/bootstrap/cache/
-/storage/logs/
-/storage/framework/
-/.env
-/.env.local
-/.env.*
+```php
+# Dependency directories
+vendor/
 
-# PHP-specific
-*.php~
-*.php.bak
-*.log
-composer.lock
+# Laravel specific
+bootstrap/cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+database/database.sqlite
 
-# General ignores
-.DS_Store
-Thumbs.db
-*.tmp
-*.swp
+# Environment
+.env
+
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Compiled files
+*.php
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
 ```
