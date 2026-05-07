@@ -1,0 +1,63 @@
+```
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
+.nyc_output/
+.vite/
+.rolldown/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+*.db
+*.sqlite
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# IDE specific
+.vscode/
+.idea/
+
+# System files
+*.dll
+*.so
+*.dylib
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+*.zst
+
+```
